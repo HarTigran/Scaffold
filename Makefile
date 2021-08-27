@@ -1,6 +1,10 @@
 install:
 	pip install --upgrade pip &&\
 		pip install -r requirments.txt
+
+install-azur:
+	pip install --upgrade pip &&\
+		pip install -r requirments-azur.txt
 		
 format:
 	black *.py
